@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "teste-locust-"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "teste_locust_"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+locust = "^2.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

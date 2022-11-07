@@ -1,0 +1,2 @@
+Method,Name,Error,Occurrences
+POST,Criar Compra,HTTPError('504 Server Error: Gateway Time-out for url: Criar Compra'),1
